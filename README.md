@@ -2,12 +2,12 @@
 
 ## File Permissions
 
-r - read
-w - write
-x - execute = running a program
-u - user = yourself
-g - group = can be people in the same project
-o - other= everyone on the syystem
+1. r - read
+2. w - write
+3. x - execute = running a program
+4. u - user = yourself
+5. g - group = can be people in the same project
+6. o - other= everyone on the syystem
 
 ## change permission
-chmod
+1. chmod
