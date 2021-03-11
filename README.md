@@ -24,5 +24,9 @@
 8) 7 - Read+write+execute rwx
 
 
+## File OwnerShip
+
+1) chown command is change the ownership of a file
+2) chgrp command is change the group ownership of  a file
 
 
