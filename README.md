@@ -36,3 +36,4 @@
 2) group : setfacl -m g:group:rw /path/to/file
 3) all : setfacl -dm "entry" /path/to/file
 4) setfacl -x u:user /path/to/file
+5) setfacl -b path/to/file
