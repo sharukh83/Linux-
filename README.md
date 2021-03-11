@@ -32,4 +32,7 @@
 
 ## Access Control List
 
--- setfacl -m u:user:rwx /path/to/file
+1) user : setfacl -m u:user:rwx /path/to/file
+2) group : setfacl -m g:group:rw /path/to/file
+3) all : setfacl -dm "entry" /path/to/file
+4) setfacl -x u:user /path/to/file
