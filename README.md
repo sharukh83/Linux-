@@ -30,3 +30,6 @@
 2) chgrp command is change the group ownership of  a file
 
 
+## Access Control List
+
+-- setfacl -m u:user:rwx /path/to/file
