@@ -54,11 +54,11 @@
 ## FIlters/ Test Processors commands
 
 * cut command is use to cut the part the files (cut -c1 filename)
-* awk command is utility designed for data extraction
-* grep and egrep
-* sort
-* uniq
-* wc
+* awk command is utility designed for data extraction (awk '{print $1}' fileName)
+* grep and egrep command is used to search the given commands in the file
+* sort command is sort in alphabatic order
+* uniq command is used to filder the duplicate the character
+* wc coomand is used to count the word of  the file
 
 ## Access Control List
 
