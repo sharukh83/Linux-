@@ -51,6 +51,15 @@
 * head
 * tail
 
+## FIlters/ Test Processors commands
+
+* cut command is use to cut the part the files (cut -c1 filename)
+* awk
+* grep and egrep
+* sort
+* uniq
+* wc
+
 ## Access Control List
 
 *  user : setfacl -m u:user:rwx /path/to/file
