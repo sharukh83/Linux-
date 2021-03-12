@@ -51,6 +51,10 @@
 * head
 * tail
 
+## Truncate file size
+
+* Truncate command is used to reduce the size of the files to the specifized size (Truncate -s 10 filename)
+
 ## FIlters/ Test Processors commands
 
 * cut command is use to cut the part the files (cut -c1 filename)
@@ -67,6 +71,18 @@
 *  all : setfacl -dm "entry" /path/to/file
 *  setfacl -x u:user /path/to/file
 *  setfacl -b path/to/file
+
+## Compare Files
+
+* diff
+* cmp
+* 
+
+## compress and un-compress files 
+
+tar command is used to compress the file and store in one container file (tar cvf filename dir) (tar xvf tarfilename )
+gzip
+gzip -d OR gunzip
 
 ## standard output to a file
 
