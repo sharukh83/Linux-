@@ -1,5 +1,9 @@
 # Linux-
 
+## command
+
+* wc command is count ther letter in file ex:- wc -c filename
+
 ## File Permissions
 
 *   r - read
@@ -29,6 +33,23 @@
 *  chown command is change the ownership of a file
 *  chgrp command is change the group ownership of  a file
 
+## File Maintenance commands 
+
+* cp
+* rm
+* mv
+* mkdir
+* rmdir or rm -r
+* chgrp
+* chown
+
+## FIle Display Commands
+
+* cat
+* more
+* less
+* head
+* tail
 
 ## Access Control List
 
@@ -37,3 +58,7 @@
 *  all : setfacl -dm "entry" /path/to/file
 *  setfacl -x u:user /path/to/file
 *  setfacl -b path/to/file
+
+## standard output to a file
+
+* tee commands is used to store and view
