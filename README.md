@@ -76,7 +76,6 @@
 
 * diff
 * cmp
-* 
 
 ## compress and un-compress files 
 
