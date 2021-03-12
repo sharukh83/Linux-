@@ -54,7 +54,7 @@
 ## FIlters/ Test Processors commands
 
 * cut command is use to cut the part the files (cut -c1 filename)
-* awk
+* awk command is utility designed for data extraction
 * grep and egrep
 * sort
 * uniq
