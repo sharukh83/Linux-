@@ -86,3 +86,11 @@ gzip -d OR gunzip
 ## standard output to a file
 
 * tee commands is used to store and view
+
+## Talking to users
+
+* users command is use to check the avaiable user in system admin / example "users"
+* wall command is use share message to one account to another account / example "wall message"
+* write command is use share message to one acount to another account / example "write message"
+
+## Linux Account Authenication
