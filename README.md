@@ -113,10 +113,21 @@ gzip -d OR gunzip
 
 ## Process Management
 
-Background= ctrl-z, jobs and bg
-Foreground = fg
-Run process even after exit = nohup process & /dev/null 2>$1 &
-Kill a process by name- pKill
-Process Priority = nice (eg nice -n 5 process)
-process Monitoring = top
-List Process = ps
+* Background= ctrl-z, jobs and bg
+* Foreground = fg
+* Run process even after exit = nohup process & /dev/null 2>$1 &
+* Kill a process by name- pKill
+* Process Priority = nice (eg nice -n 5 process)
+* process Monitoring = top
+* List Process = ps
+
+## System monitoring
+
+* top command is used to show monitoring process
+* df command is used to show the size of directorys
+* dmesg command is used to show the error messageses
+* iostat l command is used to show the input and output of monitoring processes
+* netstat command is used to show the network protocols (eg: netstat -rnv)
+* free 
+* cat /proc/cpuinfo
+* cat /proc/meminfo
