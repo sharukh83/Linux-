@@ -93,4 +93,30 @@ gzip -d OR gunzip
 * wall command is use share message to one account to another account / example "wall message"
 * write command is use share message to one acount to another account / example "write message"
 
-## Linux Account Authenication
+## System utility commands
+
+* date command is use to tell the current date
+* uptime command is use to tell how many users login and time 
+* hostname command is use to show currrent user name
+* uname command is use to show the name of kernel machine / ex: uname -a
+* which 
+* cal command is use to show the  calander 
+
+## Processes and Jobs
+
+* Application = service
+* script
+* Process (systemctl or service, ps, top = system montoring , kill = ex: kill process id, crontab = ex: min:hou:day:mon:year)
+* Daemon
+* Threads
+* Job
+
+## Process Management
+
+Background= ctrl-z, jobs and bg
+Foreground = fg
+Run process even after exit = nohup process & /dev/null 2>$1 &
+Kill a process by name- pKill
+Process Priority = nice (eg nice -n 5 process)
+process Monitoring = top
+List Process = ps
