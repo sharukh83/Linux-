@@ -196,3 +196,30 @@ gzip -d OR gunzip
 * collect and package diagnostic and support data
 * sos-version -version 
 * sosreport - command
+
+## Type of Linux Shells
+
+* Gnome
+* KDE
+* Sh
+* bash
+* csh and tcsh
+* ksh
+
+* cat /etc/shells
+
+## shell scripting
+
+* shell (#!/bin/bash)
+* comments (# comments)
+* commands (echo, cp, grep etc)
+* Statements (if, while, for etc)
+* shell script should have executable permissions (e.g -rwx r-x r-x)
+
+* output to screen using "echo"
+* creating tasks
+
+## Input/Output
+
+* read
+* echo
