@@ -131,3 +131,68 @@ gzip -d OR gunzip
 * free 
 * cat /proc/cpuinfo
 * cat /proc/meminfo
+
+## Log Monitoring
+
+* Log Directory = /var/log
+* boot
+* chrondy = NTP
+* cron
+* maillog
+* secure
+* messages
+* httpd
+
+## System Mantenance commands
+
+* shutdown 
+* init 0-6
+* reboot
+* halt 
+
+## Changing System Hostname
+
+* hostnamectl set-hostname newhostname
+* version 7 = Edit /etc/hostname
+* version 6 = Edit /etc/sysconfig/network
+
+## Finding System information
+
+* cat /etc/redhat-release
+* uname -a
+* dmidecode
+
+## system Architecure 
+
+* Arch
+
+## Terminal control Key
+
+* CTRL-U - erase everthing you've tyyped on the command line
+* CTRL-o - stop/kill
+* CTRL-z - suspend a command
+* CTRL-d -exit from an interactive program (signals end of data)
+
+## Terminal commands
+
+* clear - clear our screen
+* exit - Exit out of the sheel, terminal or a user session
+* script - THe script command stores terminal activities in a log file that can be named by user
+
+## Recover Root Paaswd
+
+* Restart your computer 
+* Edit grup
+* change pasword
+* reboot
+* rw init=/sysroot/bin/sh
+* ctrl x
+* chroot /sysroot
+* passwd root
+* exit
+
+## SOS report 
+
+* collect and package diagnostic and support data
+* sos-version -version 
+* sosreport - command
