@@ -287,7 +287,7 @@ gzip -d OR gunzip
 * scp command : scp filename server@ipaddr:/dirname
 
 ## rsync- Remote Synchronization ( rsync is used transfer and synchronizing files with in the same computer or remote computer by comparing the modification times and size of files)
-** basic sysntax of rsync command
+* - basic sysntax of rsync command
 * rsync options source destination
 * - install rsync in your linux machine
 * yum install rsync
@@ -305,6 +305,60 @@ gzip -d OR gunzip
 * rsync -avzh centos@ipaddr:/home/centos/filename /tmp/backups
 
 ## System Updates and Repos
+
+* yum (Centos), apt-get(linux), rpm (redhat linux)
+* yum update -y
+* upgrade = delete package
+* update = preserve
+* yyum remove packagename
+
+## Advance Package Management
+
+* iNstalling Packages
+* upgrading
+* Deleting
+* view package details information
+* Identifyy source or location infornmation
+* Packages configuration files
+
+* installed rpm package command - rpm -hiv tar-packagename.gz
+* package information command - rpm -qi package-name 
+* delete package name - rpm -e package-name
+* package configuration - rpm -qc package-name
+
+## RollBack Updates and patches
+
+* yum install package
+* yum upgrade package
+* yum history undo package_id
+
+## SSH and Telnet
+* Telnet = un-secured connection between computer
+* ssh = secured
+
+* Two type of packages for most of the services
+* - client packages
+* - server packages
+
+## Hostname/ ip lookup
+
+* nslookup command show the server ipaddr
+* dig command show the server information
+
+## NTP 
+
+* Purpose?
+  -- Time synchronization
+* File
+  --  /etc/ntp.conf
+* Service
+  --  systemctl restart httpd
+* command
+  --  ntpq
+  
+  
+
+
 
 
 
