@@ -287,7 +287,7 @@ gzip -d OR gunzip
 * scp command : scp filename server@ipaddr:/dirname
 
 ## rsync- Remote Synchronization ( rsync is used transfer and synchronizing files with in the same computer or remote computer by comparing the modification times and size of files)
--- basic sysntax of rsync command
+** basic sysntax of rsync command
 * rsync options source destination
 * - install rsync in your linux machine
 * yum install rsync
