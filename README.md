@@ -223,3 +223,48 @@ gzip -d OR gunzip
 
 * read
 * echo
+
+
+##  network commands
+
+* ping commands is used to communicate the other server (ping servername)
+* ip stands for internaet protocol 
+* subnet mask associate with attach ip address and divide the ip network 
+* Gateway tells yyour computer which routes you have to pick to send your traffic out and recieve in
+* static means if you give your ip addr to our company and you to assign ip in your machine and rebbot the system it doesn't change if dhcp is set the ip addr will change
+* interface means that you have ethernet port on laptop
+* interface Mac associate with network card and it will never change
+
+## network files and commands
+
+* Interface Domain
+* Assigning an Ip address
+* Interface configuration files
+* - /etc/nswitch.conf with tells the host of your ip address
+* - /etc/hostname 
+* - /etc/sysconfig/network
+* - /etc/sysconfig/network-scripts/ifcfg-nic
+* - /etc/resolv.con
+
+## Network commands
+
+* ping
+* ifconfig
+* ifup and ifdown
+* netstat (eg: netstat -rnv)
+* tcpdump 
+
+## NIC information
+
+* NIC= network interface card that is attach to your laptop
+* ethtool
+
+## Download files or Apps
+
+* wget url
+
+## Curl and ping commands
+
+* curl commands show the web page code like html code (eg:- curl -o url)
+* ping commands u can see the ip addr of web site
+
