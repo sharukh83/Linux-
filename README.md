@@ -268,3 +268,41 @@ gzip -d OR gunzip
 * curl commands show the web page code like html code (eg:- curl -o url)
 * ping commands u can see the ip addr of web site
 
+## FTP
+
+* client
+* - yum install ftp
+* - put filename
+
+* server
+* - root access
+* - rpm -qa | grep ftp
+* - yum install vsftpd
+* -  cd /etc/vsftpd/
+* - cp vsftpd.conf vsftpd.conf.orig
+
+## scp (secure copy protocol help to transfer computer files securely from a remote host. like ftp, but it add sec and auth)
+* - protocol - set of rules used by computer communicate
+* - Default SCP Port = 22 
+* scp command : scp filename server@ipaddr:/dirname
+
+## rsync- Remote Synchronization ( rsync is used transfer and synchronizing files with in the same computer or remote computer by comparing the modification times and size of files)
+* - basic sysntax of rsync command
+* rsync options source destination
+* - install rsync in your linux machine
+* yum install rsync
+* - rsync a file on local machine
+* tar cvf backup.tar
+* mkdir /tmp/backups
+* rsync -zvh backup.tar /tmp/backups/
+* - rsync a directoryy on a local machine
+* rsync -azvh /home/centos /tmp/backups
+* - rsync a file to remote machine
+* mkdir /tmp/backups
+* rsync -avz backup.tar centos@ipaddr:/tmp/backups
+* - rsync a file from a remote machine
+* touch filename
+* rsync -avzh centos@ipaddr:/home/centos/filename /tmp/backups
+
+
+
