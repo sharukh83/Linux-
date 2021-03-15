@@ -257,7 +257,7 @@ gzip -d OR gunzip
 ## NIC information
 
 * NIC= network interface card that is attach to your laptop
-* ethtool
+* ethtool =  query or control network driver and hardware settings
 
 ## Download files or Apps
 
@@ -342,8 +342,8 @@ gzip -d OR gunzip
 
 ## Hostname/ ip lookup
 
-* nslookup command show the server ipaddr
-* dig command show the server information
+* nslookup command show the server ipaddr (eg nslokup domainname)
+* dig command show the server information (eg dig domain name)
 
 ## NTP 
 
@@ -356,6 +356,32 @@ gzip -d OR gunzip
 * command
   --  ntpq
   
+## chronyd
+
+* Purpose? = Time Synchronization
+* package name = chronyd
+* configurtion file =/etc/chronyyd.conf
+* Log file = /var/log/chrony
+* service file = systemctl start/restart  chronyd
+* program command = chronyc.
+
+## sendmail
+
+* purpose? = send and recive mail
+* files = /etc/mail/sendmail.mc && /etc/mail/sendmail.cf && /etc/mail
+* service = systemctl restart sendmail
+* command = mail -s "subject line" srk868567@gmail.com
+
+## web server (httpd)
+
+* Purpose = werve webpages
+* service or package name = httpd
+* files =/etc/http/conf/httpd.conf && /var/www/html/index.html
+* service = systemctl restart httpd && systemctl enable httpd
+* Log files= /var/log/httpd
+        
+
+
   
 
 
