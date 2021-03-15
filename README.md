@@ -414,8 +414,21 @@ gzip -d OR gunzip
 *  - copy the key to the server && ssh-copy-id root@ipaddr
 *  - login from client to server
 
+## System Run Level
 
-  
+* Main Run level
+* 0  Shut down the system
+* 1 Single-user mode usually aliased as s or S
+* 6 Reboot the system
+
+##### Other Run Level
+
+* 2 Multiuser mode withour networking
+* 3 Multiuser mode with networking
+* 5 Multiuser mode with networking and GUi
+
+
+
 
 
 
