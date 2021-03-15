@@ -381,6 +381,39 @@ gzip -d OR gunzip
 * Log files= /var/log/httpd
         
 
+## central logger(RSYSLog)
+
+* purpose = generate logs or collect logs from other servers
+* service or package name = rsyslog
+* configuration file= /etc/rsyslog.conf
+* service= systemctl restart rsyslog && systemctl enable rsyslog
+
+## OpenLDap Installation(basically open source implementation of like active directory of protocols)
+
+* openldap service = slapd
+* start or stop the service = systemctl start enable, systemctl enable slapd
+* configuration files = /etc/openldap/slapd.d
+
+## TraceRoute
+
+* traceroute means basically trace from source to destination
+* traceroute (traceroute www.ggogle.com)
+
+## how to open an image file
+
+* command = imageMagick 
+* command for output = display filename
+
+## Access Remote server without password(ssh-keys)
+
+* Two reasons to access a remote machine / Repitive logins / Automation through scripts
+* key are generated at user level
+
+* client
+*  -  Generate the key && ssh-keygen
+*  - copy the key to the server && ssh-copy-id root@ipaddr
+*  - login from client to server
+
 
   
 
