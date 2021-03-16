@@ -464,6 +464,22 @@ gzip -d OR gunzip
 * swapon command is use to make swap on (swapon /newswap)
 * swapoff command is use to do swap off (swapoff /newswap)
 
+## file system check (fsck and xfs_repair)
+* linux fsck  utility is used to check and repair linux filesystem
+* linux xfs_repair utility is used to checknand repair linux filesystem for xfs filesystem type
+* 1) df -T
+* 2) fsck /dev/sbd1
+* 3) xfs_repair /dev/sbd1
+* 4) unmount /data]
+* 5) xfs_repair /dev/sdb1
+* 6) mount /dev/sdb1
+
+## System backup(dd command)
+* dd is a command-line utility for unix and unix-like operating systems whose primary purpose is to convert and copy files
+* dd if=/dev/sda of=/dev/sdb.img
+
+
+
 
 
 
