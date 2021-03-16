@@ -427,6 +427,42 @@ gzip -d OR gunzip
 * 3 Multiuser mode with networking
 * 5 Multiuser mode with networking and GUi
 
+## Storage
+
+* SAN (Stroage Area Network)
+* NAS (Network Attached Storage
+* Storage 
+
+## Disk Partition
+
+* df command is use to tell how much file take size to mount(df -h)
+* fdisk command is used to tell how many partition created (fdisk -l)
+
+## Adding Disk & parition
+
+* Purpose? Out of space, Additional apps etc
+* commands for disk partition is (df, fdisk)
+
+## LVM(Logical volume anagement)
+
+* LVM allows disk to combined together
+* create parition (fdisk /dev/fsdk1)
+* pvcreate command is use to create physical volume (eg pvcreate /dev/fsdks1)
+* vgcreate command is use to create volume group (eg vgcreate filename /dev/fsdk1)
+* lvcreate command is use to create logical volume (Eg lvcreate -n newfilename --size 1G vgroupfilename)
+* lvdisplay  command is use to check logicla volumes (Eg lvdisplay)
+* Assigned lV (Eg mkds.xfs /dev/groupfilename/logicalvolumefilename)
+* to mount volume(eg mkdir /filename, mount /dev/oracle_Vg/oracle_lv /oracle)
+* vgextend command is use extend the voulume (eg vgextend oracle_vg /dev/sdd1) 
+* lvextend -L+1024M /dev/mapper/oracle_vg-oracle lv
+* xfs_growfs command is use extend the file system (eg  xfs_growfs /dev/oracle_vg_oracle_lv)
+
+## Add/Extend Swap space) 
+* swap space is linux is used when the amount of physical memory is full
+* dd command is used to create file (eg dd if=/dev/zero of=/newswap bs=1M count=1024)
+* mkswap command is use to mke swap ( mkswap /newswap)
+* swapon command is use to make swap on (swapon /newswap)
+* swapoff command is use to do swap off (swapoff /newswap)
 
 
 
